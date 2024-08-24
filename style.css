@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: url(img/cursor-exemple.png), auto;
+}
+
+header {
+  background-color: #1e1e1e;
+  width: 100vw;
+  height: 10rem;
+  color: #ffffff;
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  align-items: center;
+  margin-top: 2.5rem;
+  max-width: 1120px;
+}
+
+.top-banner img {
+  background-size: cover;
+  width: 100vw;
+}
+
+.cards {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1400px;
+}
+.cards img {
+  width: 70%;
+  max-width: 353px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  width: 100vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.5;
+}
+footer p {
+  font-family: "Actor", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+footer img {
+  width: 45px;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=style.css.map */
